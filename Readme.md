@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss-individual/1/user/2253469).
-* Наставник: `Неизвестно`.
+* Студент: [Александр Неретин](https://up.htmlacademy.ru/htmlcss-individual/1/user/2253469).
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451)
 
 ---
 
