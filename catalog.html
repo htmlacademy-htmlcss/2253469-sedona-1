@@ -3,10 +3,12 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
-    <header class="page-header"></header>
+    <div class="page-container">
+    <header class="page-header">
     <nav class="navigation">
       <a class="navigation-logo" href="index.html">
         <img class="header-logo" alt="logo-sedona" src="images/logo.svg" height="70" width="140"/>
@@ -47,6 +49,7 @@
     </nav>
     </header>
     <main class="main-inner">
+      <div class="header-container">
       <header>
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
@@ -62,6 +65,7 @@
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Главная</a>
           </li>
+          <li>Гостиницы</li>
         </ul>
       </header>
       <section class="hotel-products">
@@ -115,6 +119,7 @@
           </li>
         </ul>
       </fieldset>
+      </div>
       <fieldset class="hotels-filters-group">
       </fieldset>
       <button class="button" type="submit">Применить</button>
@@ -126,7 +131,7 @@
         <option value="cheap">Сначала дешёвое</option>
         <option value="expensive">Сначала дорогое</option>
       </select>
-      <a class="button" button-light href="#">
+      <a class="button button-light" href="#">
         <span class="visual-hidden">Карточки</span>
         <img  class="view-cards" src="images/view-cards.svg" alt="view-cards" height="48" width="48" />
       </a>
@@ -146,8 +151,8 @@
           </a>
           <div class="hotels-card-discription">Гостиница</div>
           <span class="hotels-card-price">от 4000 ₽</span>
-          <a class="hotels-card-button button" href="#">Подробнее<a>
-              <button class="hotels-card-button button" href="#">В избранное</button>
+          <a class="hotels-card-button" href="#">Подробнее<a>
+              <button class="hotels-card-button-prefer button" href="#">В избранное</button>
               <img class="stars" src="images/four-stars.svg" alt="stars-rating" height="37" width="140" />
               <div class="rating">8,5</div>
         </li>
@@ -158,8 +163,8 @@
           </a>
           <div class="hotels-card-discription">Гостиница</div>
           <span class="hotels-card-price">от 5000 ₽</span>
-          <a class="hotels-card-button button" href="#">Подробнее<a>
-              <button class="hotels-card-button button" href="#">В избранное</button>
+          <a class="hotels-card-button " href="#">Подробнее<a>
+              <button class="hotels-card-button-prefer button" href="#">В избранное</button>
               <img class="stars" src=images/four-stars.svg
                alt="stars-rating" height="37" width="140" />
               <div class="rating">9,2</div>
@@ -171,8 +176,8 @@
           </a>
           <div class="hotels-card-discription">Гостиница</div>
           <span class="hotels-card-price">от 2500 ₽</span>
-          <a class="hotels-card-button button" href="#">Подробнее<a>
-              <button class="hotels-card-button button" href="#">В избранное</button>
+          <a class="hotels-card-button " href="#">Подробнее<a>
+              <button class="hotels-card-button-prefer button" href="#">В избранное</button>
               <img class="stars" src="images/three-stars.svg" alt="stars-rating" height="37" width="140" />
               <div class="rating">6,9</div>
         </li>
@@ -183,8 +188,8 @@
           </a>
           <div class="hotels-card-discription">Гостиница</div>
           <span class="hotels-card-price">от 1500 ₽</span>
-          <a class="hotels-card-button button" href="#">Подробнее</a>
-          <button class="hotels-card-button button" href="#">В избранное</button>
+          <a class="hotels-card-button " href="#">Подробнее</a>
+          <button class="hotels-card-button-prefer button" href="#">В избранное</button>
           <img class="stars" src="images/two-stars.svg" alt="stars-rating" height="37" width="140" />
           <div class="rating">5,0</div>
         </li>
@@ -218,7 +223,7 @@
       </ul>
       </section>
       <footer class="page-footer">
-        <section class="following">
+        <section class="inner-following">
           <h2 class="following-title">Подпишитесь на рассылку</h2>
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="following-form" action="https://echo.htmlacademy.ru/" method="post"></form>
@@ -263,6 +268,7 @@
       </a>
     </section>
     </footer>
+  </div>
   </body>
 
 </html>
