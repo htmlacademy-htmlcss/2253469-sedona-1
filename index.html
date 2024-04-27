@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Седона</title>
+    <title>Главная-Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
@@ -32,7 +32,7 @@
                 <span class="visual-hidden">
                   Поиск
                 </span>
-                <img class="search" src="images/search.png" alt="icon-search" height="64" width="44" />
+                <div class="search"></div>
               </a>
             </li>
             <li class="navigation-item">
@@ -40,10 +40,10 @@
                 <span class="visual-hidden">
                   Понравилось
                 </span>
-                <img class="favourites" src="images/like.png" alt="icon-like" height="64" width="44" />
+                <div class="favourites"></div>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="want-here">
               <a class="button button-all" href="#">
                 Хочу сюда
                 <span class="visual-hidden">
@@ -97,24 +97,26 @@
           </ul>
         </section>
         <section class="orders">
-          <h2 class="orders-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p>Опытный персонал и качественное обслуживание!</p>
+          <div class="orders-title-container">
+            <h2 class="orders-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+            <p>Опытный персонал и качественное обслуживание!</p>
+          </div>
           <div class="privelege">
             <ul class="privelege-list">
               <li class="privelege-orders">
-                <img class="home" src="images/home.svg" alt="icon-home" height="75" width="72" />
+                <div class="home-image"></div>
                 <h3 class="privelege-item">Жильё</h3>
                 <p>Рекомендуем пожить в настоящем мотеле,
                   всё как в кино!</p>
               </li>
               <li class="privelege-orders">
-                <img class="food" src="images/food.svg" alt="icon-food" height="70" width="74">
+                <div class="food-image"></div>
                 <h3 class="privelege-item">Еда</h3>
                 <p>Всегда заказывайте
                   топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
               <li class="privelege-orders">
-                <img class="present" src="images/present.svg" alt="icon-present" height="76" width="64">
+                <div class="present-image"></div>
                 <h3 class="privelege-item">Сувениры</h3>
                 <p>Не только китайского,
                   но и настоящего местного производства!</p>
@@ -124,21 +126,25 @@
         </section>
       </main>
       <footer class="page-footer">
-        <section class="search-hotel">
+        <div class="search-hotel-container">
           <h2 class="search-hotel-title">Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки,и мы покажем вам</p>
-          <a class="button button-all" href="#">Поиск гостииницы в Седоне</a>
-        </section>
+          <div class="search-hotel-button">
+            <a class="button button-all" href="#">Поиск гостииницы в Седоне</a>
+          </div>
+        </div>
         <div class="subscribe">
           <section class="following">
             <h2 class="following-tittle">Подпишитесь на рассылку</h2>
             <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <form class="following-form" action="https://echo.htmlacademy.ru/" method="post"></form>
-            <p class="following-form-status">
-              <label for="following-status" class="visual-hidden">Подписаться</label>
-              <input type="email" id="following-status" name="following-status">
-            </p>
-            <button class="button" type="submit">Подписаться</button>
+            <div class="subscribe-button">
+              <form class="following-form" action="https://echo.htmlacademy.ru/" method="post"></form>
+              <p class="following-form-status">
+                <label for="following-status" class="visual-hidden">Подписаться</label>
+                <input type="email" id="following-status" name="following-status">
+              </p>
+              <button class="button" type="submit">Подписаться</button>
+            </div>
           </section>
         </div>
         <div class="footer-social">
@@ -147,19 +153,19 @@
             <li class="footer-social-item">
               <a class="button" href="https://vk.com/htmlacademy">
                 <span class="visual-hidden">Вконтакте</span>
-                <img class="vk" src="images/vk.svg" alt="icon-vk" height="14" width="24" />
+                <div class="vk"></div>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="https://t.me/htmlacademy">
                 <span class="visual-hidden">Телеграм</span>
-                <img class="telegram" src="images/telegram.svg" alt="icon-telegram" height="15.1" width="18" />
+                <div class="telegram"></div>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visual-hidden">Ютуб</span>
-                <img class="youtube" src="images/youtube.svg" alt="icon-youtube" height="17" width="22" />
+                <div class="youtube"></div>
               </a>
             </li>
           </ul>
