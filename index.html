@@ -190,10 +190,10 @@
               </a>
             </li>
           </ul>
-          <section class="footer-contacts">
-            <h2 class="visual-hidden">Контакты</h2>
+          <div class="footer-contacts">
+            <h2 class="visual-hidden">Контактный номер телефона</h2>
             <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-          </section>
+          </div>
           <section class="footer-link">
             <h2 class="visual-hidden">Ссылка на академию</h2>
             <a class="html-academy-link" href=" https://htmlacademy.ru/">
@@ -205,6 +205,58 @@
         </div>
         </section>
       </footer>
+
+      <div class="modal-container">
+        <div class="modal modal-auth">
+          <button class="modal-close-button">
+            <span class="visual-hidden">Закрыть</span>
+          </button>
+          <section class="modal-content">
+            <h2 class="modal-title">Поиск Гостиницы в Седоне</h2>
+            <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+              <div class="title-field">
+                <span>Дата Заезда:</span>
+                <p class="field-group">
+                  <label class="arived-date">
+                    <input class="auth-form-field arived" type="date" name="arived-date">
+                  </label>
+                </p>
+              </div>
+              <div class="title-field">
+                <span>Дата Выезда:</span>
+                <p class="field-group">
+                  <label class="arived-date">
+                    <input class="auth-form-field depature" type="date" name="depature-date">
+                  </label>
+                </p>
+              </div>
+            </form>
+            <form class="age-form" action="https://echo.htmlacademy.ru/" method="post">
+              <div class="age">
+                <span>Врозлые:</span>
+                <p class="age-group-adult">
+                  <label class="adult">
+                    <input class="auth-form-field adults" type="text" name="adult-age">
+                  </label>
+                </p>
+              </div>
+              <div class="age">
+                <span class="age-title">Дети:</span>
+                <p class="age-group-child">
+                  <label class="child">
+                    <input class="auth-form-field childrens" type="text" name="child-age">
+                  </label>
+                </p>
+              </div>
+            </form>
+            <a class="button button-write" href="#">
+              Найти
+              <span class="visual-hidden">Поиск
+              </span>
+            </a>
+          </section>
+        </div>
+      </div>
   </body>
 
 </html>
