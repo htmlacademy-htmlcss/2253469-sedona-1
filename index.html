@@ -206,7 +206,7 @@
         </section>
       </footer>
 
-      <div class="modal-container">
+      <div class="modal-container modal-container-close">
         <div class="modal modal-auth">
           <button class="modal-close-button">
             <span class="visual-hidden">Закрыть</span>
@@ -215,36 +215,58 @@
             <h2 class="modal-title">Поиск Гостиницы в Седоне</h2>
             <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="title-field">
-                <span>Дата Заезда:</span>
+                <span class="date-title">Дата Заезда:</span>
                 <p class="field-group">
                   <label class="arived-date">
-                    <input class="auth-form-field arived" type="date" name="arived-date">
+                    <input class="auth-form-field arived" type="text" name="arived-date"  value="27 апреля 2020" >
                   </label>
                 </p>
               </div>
+              <p class="notification-red">Мы не можем отправить вас в прошлое.</p>
               <div class="title-field">
-                <span>Дата Выезда:</span>
+                <span class="date-title">Дата Выезда:</span>
                 <p class="field-group">
                   <label class="arived-date">
-                    <input class="auth-form-field depature" type="date" name="depature-date">
+                    <input class="auth-form-field depature" type="text" name="depature-date" value="1 сентября 2023">
                   </label>
                 </p>
               </div>
+              <p class="notification">На эти даты есть свободные номер.Пока есть.</p>
             </form>
             <form class="age-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="age">
                 <span>Врозлые:</span>
+                <button class="bt-minus">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                    <path fill="#756157" fill-opacity=".3" d="M3 9v2h14V9H3Z" />
+                  </svg>
+                </button>
+                <button class="bt-plus">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                    <path fill="#756157" fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
+                  </svg>
+                </button>
                 <p class="age-group-adult">
                   <label class="adult">
-                    <input class="auth-form-field adults" type="text" name="adult-age">
+                    <input class="auth-form-field adults" type="text" name="adult-age" value="2">
                   </label>
                 </p>
               </div>
               <div class="age">
                 <span class="age-title">Дети:</span>
+                <button class="bt-minus-child">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                    <path fill="#756157" fill-opacity=".3" d="M3 9v2h14V9H3Z" />
+                  </svg>
+                </button>
+                <button class="bt-plus-child">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                    <path fill="#756157" fill-opacity=".3" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z" />
+                  </svg>
+                </button>
                 <p class="age-group-child">
                   <label class="child">
-                    <input class="auth-form-field childrens" type="text" name="child-age">
+                    <input class="auth-form-field childrens" type="text" name="child-age" value="2">
                   </label>
                 </p>
               </div>
