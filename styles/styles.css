@@ -125,6 +125,7 @@ body {
 }
 
 .navigation-item {
+  margin-right: 2px;
   position: relative;
   min-width: 40px;
   font-size: 20px;
@@ -855,7 +856,7 @@ body {
 }
 
 .header-container {
-  margin-top: -6px;
+  margin-top: -12px;
   background-image: url(../images/background-catalog.jpeg);
   background-color: #ffffff;
   background-size: cover;
@@ -1065,7 +1066,7 @@ body {
   font-weight: 700;
   padding-left: 20px;
   border: none;
-  width: 143px;
+  width: 122px;
   height: 48px;
 }
 
@@ -1308,39 +1309,39 @@ body {
 }
 
 .view-cards rect:hover {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 }
 
 .view-list rect:hover {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 }
 
 .view-one-card rect:hover {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 }
 
 .view-cards rect:focus {
-  fill: #68A2CA solid 2px;
+  stroke: #68A2CA;
 }
 
 .view-list rect:focus {
-  fill: #68A2CA solid 2px;
+  stroke: #68A2CA;
 }
 
 .view-one-card rect:focus {
-  fill: #68A2CA solid 2px;
+  stroke: #68A2CA;
 }
 
 .view-cards rect:active {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 }
 
 .view-list rect:active {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 }
 
 .view-one-card rect:active {
-  fill: #000000 solid 2px;
+  stroke: #000000;
 
 }
 
