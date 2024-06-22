@@ -1889,7 +1889,7 @@ body {
   background-color: transparent;
   border: none;
   left: 155px;
-  top: 345px;
+  top: 300px;
   position: absolute;
 }
 
@@ -1902,7 +1902,7 @@ body {
 
 .bt-plus {
   left: 225px;
-  top: 345px;
+  top: 300px;
   cursor: pointer;
   height: 20px;
   width: 20px;
@@ -1919,8 +1919,8 @@ body {
 }
 
 .bt-minus-child {
-  right: 120px;
-  top: 345px;
+  right: 85px;
+  top: 300px;
   cursor: pointer;
   height: 20px;
   width: 20px;
@@ -1937,8 +1937,8 @@ body {
 }
 
 .bt-plus-child {
-  right: 46px;
-  top: 345px;
+  right: 10px;
+  top: 300px;
   cursor: pointer;
   height: 20px;
   width: 20px;
@@ -2018,6 +2018,6 @@ body {
   font-weight: 300;
 }
 
-.modal-container {
+/* .modal-container {
   display: none;
-}
+} */
