@@ -46,6 +46,12 @@ body {
   min-width: 1200px;
 }
 
+.over-lay {
+  height: 100%;
+  width: 1280px;
+  background-color: #F2F2F2;
+}
+
 .visual-hidden {
   position: absolute;
   width: 1px;
@@ -74,6 +80,7 @@ body {
 }
 
 .page-container {
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #ffffff;
   flex-direction: column;
@@ -132,7 +139,7 @@ body {
 
 .navigation-item {
   position: relative;
-  min-width: 40px;
+  max-width: 115px;
   font-size: 20px;
 }
 
@@ -184,7 +191,7 @@ body {
   list-style-type: none;
   justify-content: space-between;
   display: flex;
-  max-width: 315px;
+  max-width: 325px;
   min-height: 64px;
 }
 
@@ -217,7 +224,7 @@ body {
   border-radius: 5px;
   display: inline-block;
   padding: 6px 31px;
-  width: 110px;
+  max-width: 110px;
   min-height: 20px;
   background-color: #756157;
 }
@@ -612,10 +619,10 @@ body {
 
 .field-email[placeholder] {
   min-height: 52px;
-  padding-left: 21px;
+  padding-left: 20px;
   width: 432px;
   font-family: "PT Sans", sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -645,9 +652,7 @@ body {
 
 
 .following-tittle {
-  padding-top: 45px;
-  margin: 0;
-  padding-bottom: 11px;
+  margin-bottom: 10px;
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
@@ -658,6 +663,7 @@ body {
 }
 
 .following {
+  min-height: 270px;
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
@@ -803,10 +809,10 @@ body {
 }
 
 .subscribe-button {
+  margin-top: 53px;
   border: none;
   justify-content: center;
   align-items: center;
-  height: 156px;
   display: flex;
 }
 
@@ -852,7 +858,7 @@ body {
   border: none;
   padding: 0;
   width: 450px;
-  height: 50px
+  min-height: 50px
 }
 
 .html-academy-link {
@@ -906,13 +912,13 @@ body {
 }
 
 .hotel-filters {
+  max-width: 160px;
   margin-right: 62px;
   margin-left: -3px;
 }
 
 .hotels-filters-group {
   position: relative;
-  text-wrap: nowrap;
   display: flex;
   border: none;
   list-style-type: none;
@@ -1009,7 +1015,7 @@ body {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:focus + .control-mark-radio{
+.control-input[type="radio"]:focus + .control-mark-radio {
   outline: 2px solid #83B3D3;
 }
 
@@ -1180,6 +1186,7 @@ body {
 }
 
 .filters {
+  max-width: 1100px;
   flex-wrap: wrap;
   padding-top: 39px;
   display: flex;
@@ -1191,10 +1198,12 @@ body {
   justify-content: space-between;
   margin-top: 55px;
   display: flex;
-  width: 190px;
+  max-width: 190px;
+  height: fit-content;
 }
 
 .button-use {
+  height: fit-content;
   padding: 8px 50px;
   border-radius: 4px;
   max-width: 191px;
@@ -1226,6 +1235,8 @@ body {
 }
 
 .cancel-all {
+  margin-top: 34px;
+  height: fit-content;
   margin-bottom: 20px;
   padding: 8px 58px;
   border: none;
@@ -1260,7 +1271,7 @@ body {
 }
 
 .search-hotel-count {
-  max-width: 440px;
+  max-width: 340px;
   margin-left: 70px;
   color: #000000;
   text-transform: uppercase;
@@ -1275,8 +1286,8 @@ body {
   margin-top: 51px;
   font-size: 30px;
   font-weight: 700;
-  width: 1200px;
-  height: 50px;
+  max-width: 1200px;
+  min-height: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -1395,6 +1406,10 @@ body {
   padding: 18px;
 }
 
+.hotels-item.last h3 {
+  margin-top: 12px;
+}
+
 .hotels-list {
   margin-left: 70px;
   display: grid;
@@ -1500,6 +1515,8 @@ body {
 }
 
 .rating {
+  font-size: 16px;
+  text-transform: uppercase;
   border-radius: 4px;
   width: 96px;
   background-color: #F2F2F2;
@@ -1533,7 +1550,7 @@ body {
   display: flex;
   background-color: #ffffff;
   margin: 0 auto;
-  width: 1200px;
+  width: 400px;
 }
 
 
@@ -1598,7 +1615,7 @@ body {
 }
 
 .inner-following h2 {
-  margin-bottom: 0;
+  margin-bottom: -3px;
   text-transform: uppercase;
   font-family: "PT Sans", sans-serif;
   margin-top: 98px;
@@ -1612,11 +1629,13 @@ body {
 }
 
 .following-form.inner {
-  margin-bottom: 47px;
+  margin-top: 31px;
+  margin-bottom: 75px;
 }
 
 .subscribe-button.next {
-  margin-bottom: 32px;
+  margin-bottom: 31px;
+  margin-top: 10px;
 }
 
 .hotels-card-button-prefer.in-favourites {
@@ -1639,7 +1658,7 @@ body {
 .hotels-card-button-prefer {
   height: fit-content;
   border-radius: 5px;
-  max-width: 140px;
+  width: 140px;
   margin-top: 16px;
   background-color: #82B3D3;
   padding: 8px 20px
