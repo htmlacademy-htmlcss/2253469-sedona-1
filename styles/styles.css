@@ -750,7 +750,6 @@ body {
   padding-top: 53px;
   padding-bottom: 35px;
   width: 360px;
-  height: 43px;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
@@ -919,6 +918,7 @@ body {
 }
 
 .hotels-filters-group {
+  max-width: 300px;
   position: relative;
   display: flex;
   border: none;
@@ -1283,7 +1283,6 @@ body {
 }
 
 .select-item {
-  align-items: center;
   margin-top: 51px;
   font-size: 30px;
   font-weight: 700;
