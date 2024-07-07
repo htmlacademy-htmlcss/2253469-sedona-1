@@ -47,6 +47,7 @@ body {
 }
 
 .over-lay {
+  margin: 0 auto;
   height: 100%;
   width: 1280px;
   background-color: #F2F2F2;
