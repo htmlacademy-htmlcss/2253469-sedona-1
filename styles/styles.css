@@ -382,7 +382,7 @@ body {
   padding-top: 85px;
   padding-right: 115px;
   padding-left: 112px;
-  font-family: "PT SANS", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -1457,11 +1457,11 @@ body {
 }
 
 .hotel {
-  color:#000000;
+  color: #000000;
 }
 
 .hotels-card-price {
-  color:#000000;
+  color: #000000;
   max-width: 100px;
   text-align: end;
   font-size: 18px;
@@ -1791,7 +1791,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 36px;
 }
 
@@ -1801,7 +1801,7 @@ body {
 
 .adult {
   margin-left: -15px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 24px;
   font-size: 20px;
@@ -1809,7 +1809,7 @@ body {
 }
 
 .child {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   line-height: 24px;
   font-size: 20px;
@@ -1831,7 +1831,7 @@ body {
 }
 
 .auth-form-field.arived {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans' sans-serif;
   position: relative;
   font-size: 17px;
   padding-left: 17px;
@@ -1854,7 +1854,7 @@ body {
 }
 
 .auth-form-field.depature {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-size: 17px;
   padding-left: 18px;
   font-weight: 700;
@@ -1885,7 +1885,7 @@ body {
 }
 
 .auth-form-field.adults {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   margin-left: 40px;
   margin-top: -8px;
   position: relative;
