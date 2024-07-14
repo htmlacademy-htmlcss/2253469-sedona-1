@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <div class="over-lay">
       <div class="page-container">
         <header class="page-header">
           <nav class="navigation">
@@ -155,18 +156,16 @@
                   <div class="range-wrapper-inputs">
                     <label class="catalog-filter-label">
                       <input class="range-input left" type="number" value="0" name="min-price">
-                      <span class="range-text">от</span>
                     </label>
                     <label class="catalog-filter-label">
                       <input class="range-input right" type="number" value="9000" name="max-price">
-                      <span class="range-text to">до</span>
                     </label>
                     <div class="range-box">
                       <div class="range-scale">
-                        <button class="range-toggle toggle-min" type="button">
+                        <button class="range-toggle toggle-min">
                           <span class="visual-hidden">Изменить минимальную цену.</span>
                         </button>
-                        <button class="range-toggle toggle-max" type="button">
+                        <button class="range-toggle toggle-max">
                           <span class="visual-hidden">Изменить максимальную цену.</span>
                         </button>
                       </div>
@@ -177,7 +176,7 @@
               </fieldset>
               <div class="use">
                 <button class="button-use" type="submit">Применить</button>
-                <button class="cancel-all" type="reset">Сбросить</button>
+                <button class="cancel-all" type="submit">Сбросить</button>
               </div>
             </div>
           </div>
@@ -348,7 +347,7 @@
                     <input class="field-email" placeholder="Ваш e-mail" type="email" id="following-status"
                       name="following-status">
                   </p>
-                  <button class="following-button" type="submit">Подписаться</button>
+                  <button class="button" type="submit">Подписаться</button>
                 </form>
               </div>
             </div>
@@ -401,6 +400,7 @@
           </div>
         </footer>
       </div>
+    </div>
   </body>
 
 </html>
